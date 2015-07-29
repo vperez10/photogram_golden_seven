@@ -233,7 +233,7 @@ Afterwards, redirect the user to the details page of the photo that was just edi
 
 This is optional, but when I was learning this material, I found sheer repetition to be really helpful in connecting the dots in my brain.
 
-A suggestion: download a fresh copy of this repo again, and repeat the whole process. Try to rely less on the instructions this time.
+A suggestion: download a fresh copy of this repo again (you can just download the ZIP rather than cloning), and repeat the whole process. Try to rely less on the instructions this time.
 
 Rinse and repeat.
 
