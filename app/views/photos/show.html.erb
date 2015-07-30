@@ -1,6 +1,7 @@
 <h1> Photo <% @photo %> </h1>
 
 <div>
-<li> Photo caption<%= @photo.caption %></li>
-<li> Photo source<%= @photo.source %></li>
+<img src="<%= @photo.source %>" width="250">
+<li> Photo caption <%= @photo.caption %></li>
+<li> Photo source <%= @photo.source %></li>
 </div>
