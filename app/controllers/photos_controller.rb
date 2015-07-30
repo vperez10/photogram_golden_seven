@@ -29,15 +29,14 @@ end
 
 def edit_form
   @photo=Photo.find_by({:id => params["id"]})
-  @photo.caption=params["caption"]
-  @photo.source=params["source"]
-  #redirect_to("http://localhost:3000/update_form/:id")
   end
 
-def update_form
+def update_row
 @photo=Photo.find_by({:id => params["id"]})
   @photo.caption=params["caption"]
   @photo.source=params["source"]
+  @photo.save
+  redirect_to("http://localhost:3000/photos")
 end
 
 end
